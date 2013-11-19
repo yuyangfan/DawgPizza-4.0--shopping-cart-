@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+	<head>
+		 <meta charset="UTF-8">
+            <meta name="description" content="DawgPizza Home Page">
+            <meta name="author" content="yf8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <link rel="shortcut icon" href="img/logo.png">
+            <title>Dawg Pizza - Website</title>
+            
+            <!-- hot link to Bootstrap stylesheet -->
+            <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+            <!-- our own stylesheet for overrides -->
+            <link rel="stylesheet" href="css/styles.css">
+		
+	</head>
+	<body>
+
+		<div class="container">
+			
+			     <nav class="navbar navbar-default content-box1 col-md-8 col-md-offset-2" role="navigation">
+				     <div class="navbar-header">
+				        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".pawnee-navbar-menu">
+				            <span class="sr-only">Toggle Navigation</span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>
+				            <span class="icon-bar"></span>                        
+				        </button>
+				        <a class="navbar-brand title" href="index.html"><img class="logo img-responsive" src="img/logo.png" alt="Pizza logo"></a>
+				    </div>
+				    
+				    <div class="collapse navbar-collapse pawnee-navbar-menu ">
+				            <ul class="nav navbar-nav">
+				                 <li><a href="index.html">Home</a></li>
+				                <li><a href="menu.html">Menu</a></li>
+				                <li   class="active"><a href="order.html">Order</a></li>
+				                <li><a href="about.html">About</a></li>
+				                <li><a href="jobs.html">Jobs</a></li>
+				            </ul>
+				    </div>
+				    <h2 class="des">Awesome wood-fired pizza with fresh ingredients baked to order.</h2> 
+
+				    <p class="grey-line"></p>
+
+				    <p class=" header">10:00am-11:00pm Monday-Saturday      
+				    	<a class="header" href="http://maps.google.com/?q=4306 University Way NE, Seattle, WA, 98105" target="_blank">4306 University Way NE, Seattle, WA 98105</a>.</p>
+			    </nav>
+
+
+			    <div class="content-box1">
+				  
+			    	<p class="des">Deliver Only in the Seattle city Limits, from noon to 11pm. We accept cash or credit cards on delivery</p>
+
+					<div class="row">
+					                <div class="col-md-4 col-md-push-8">
+					                    <h2>Your Cart</h2>
+					                    <div class="cart-items-container"></div>
+					                    <div class="cart-footer">
+					                        <div class="row total-row">
+					                            <div class="col-xs-10">
+					                                Total:
+					                            </div>
+					                            <div class="col-xs-2">
+					                                $<span class="total-price"></span>
+					                            </div>
+					                        </div>
+					                        <div class="row">
+					                            <div class="col-xs-12 button-row">
+					                                <button type="button" class="btn btn-primary place-order">Place My Order</button>
+					                            </div>
+					                        </div>                        
+					                    </div>
+					                </div>
+					                <div class="col-md-8 col-md-pull-4">
+					                    <div class="movies-container"></div>        
+					                </div>
+					            </div>
+
+					        </div> <!-- .container -->
+
+					        <div class="templates">
+
+					            <!-- movie template -->
+					            <div class="movie-template movie clearfix">
+
+					                <img class="pic" src="" alt="">
+					                <h2 class="title"></h2>
+
+					                <p class="format-template">
+					                    <button type="button" class="btn btn-default add-to-cart">
+					                        Buy on <img src="" alt="logo for format" class="format-logo"> 
+					                        for $<span class="format-price"></span>
+					                    </button>
+					                </p>
+
+					            </div>
+
+					            <!-- cart item template -->
+					            <div class="cart-item-template cart-item row">
+					                <div class="col-xs-10">
+					                    <p><button type="button" class="btn btn-default btn-xs remove-item">&times;</button> 
+					                        <span class="title"></span> (<span class="formatLabel"></span>)
+					                    </p>
+					                </div>
+					                <div class="col-xs-2 col-price">
+					                    <p>$<span class="price"></span></p>
+					                </div>
+					            </div>
+
+					        </div> <!-- .templates -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		                    <p class="grey-line"></p>
+		 					<h4 class="des2"><a class="mail" href="mailto:dawgpizzaseattle@gmail.com">Email:dawgpizzaseattle@gmail.com</a></h4>
+							<h4 class="des2">© Copyright 2013 &nbsp&nbsp&nbsp&nbsp&nbsp&nbspDawgPizza  </h4>   
+							<a href="https://github.com/yuyangfan/DawgPizza-2.0-">My Repo</a>   
+							<p class="space"></p>
+
+		        </div>
+		</div>
+
+
+		<div class="footer">
+        	
+        	<h6 class="des2">CALL US FOR DELIVERY! &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 206-555-1212  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        		<a href="https://twitter.com/DawgPizzaSea" class="twitter-follow-button" data-show-count="false">Follow @DawgPizzaSea</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                        </script></h6>
+
+        
+    	</div>
+
+
+		<!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script>
+        $('.carousel').carousel();
+    	</script>
+
+    	<script src="lib/jquery-2.0.3/jquery-2.0.3.min.js"></script>
+
+        <!-- our own JavaScript files -->
+        <script src="js/utils.js"></script>
+        <script src="js/events.js"></script>
+        <script src="js/models.js"></script>
+        
+
+       <!--  !!!!!!          adjustment need to be done in views.js               !!!!!!! -->
+        <script src="js/views.js"></script> 
+
+
+
+        <script src="js/cart.js"></script>
+        <script src="js/cartItemView.js"></script>
+        <script src="js/cartView.js"></script>
+        <script src="js/controller.js"></script>
+
+	</body>
+</html>
